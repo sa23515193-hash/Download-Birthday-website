@@ -141,6 +141,15 @@ export default function Download() {
           {isGenerating ? "Generating..." : "Generate & Download"}
         </button>
       </form>
+      <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "20px" }}>
+  <iframe
+    src="https://otieu.com/4/10030286"
+    style={{ width: "300px", height: "400px", border: "none", overflow: "hidden" }}
+    scrolling="no"
+    title="Birthday Ad"
+  ></iframe>
+</div>
+
     </div>
   );
 }

@@ -18,7 +18,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+   <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <iframe
+        src="https://otieu.com/4/10030305"
+        style={{ width: "300px", height: "400px", border: "purpule", overflow: "hidden" }}
+        scrolling="no"
+        title="Birthday Ad"
+      ></iframe>
+    </div>
       <section className="info">
         <h2>About This Website</h2>
         <p>
@@ -27,6 +34,7 @@ export default function Home() {
         </p>
       </section>
 
+      
       
     </div>
   );

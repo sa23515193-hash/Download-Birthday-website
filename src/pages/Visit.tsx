@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
 import "../App.css";
 
 export default function Visit() {
@@ -66,13 +67,23 @@ export default function Visit() {
 
       {stage === "wishes" && (
         <div className="visit-stage wishes-stage">
-          <h2>💖 Happy Birthday Dear!</h2>
+          <h2>💖 Happy Birthday Dear! </h2>
           <p>May your 18th year bring joy, success, and endless smiles 🎈</p>
           <button className="visit-btn" onClick={() => navigate("/")}>
             Back to Home
           </button>
         </div>
       )}
+{/* Ad at the bottom, scroll with content */}
+      <div style={{ textAlign: "center", marginTop: "30px" }}>
+        <iframe
+          src="https://otieu.com/4/10030408"
+          style={{ width: "300px", height: "400px", border: "none", overflow: "hidden" }}
+          scrolling="no"
+          title="Birthday Ad"
+        ></iframe>
+      </div>
+      
     </div>
   );
 }
