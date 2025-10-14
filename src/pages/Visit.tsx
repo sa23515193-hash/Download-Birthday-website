@@ -74,16 +74,7 @@ export default function Visit() {
           </button>
         </div>
       )}
-{/* Ad at the bottom, scroll with content */}
-      <div style={{ textAlign: "center", marginTop: "30px" }}>
-        <iframe
-          src="https://otieu.com/4/10030408"
-          style={{ width: "300px", height: "400px", border: "none", overflow: "hidden" }}
-          scrolling="no"
-          title="Birthday Ad"
-        ></iframe>
-      </div>
-      
+
     </div>
   );
 }
